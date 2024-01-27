@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3374429664432626304}
   - component: {fileID: 1071095288694862745}
   - component: {fileID: 2960551220967359561}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CrabPrefab
   m_TagString: Crab
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 1769430387234332020}
   - component: {fileID: 3396167232515822289}
   - component: {fileID: 632029328451675675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: e37a52bfa96f_low_poly_cute_carto
   m_TagString: Untagged
   m_Icon: {fileID: 0}

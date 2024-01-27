@@ -87,15 +87,15 @@ public class TouchController : MonoBehaviour
                 touchbegan = true;
                 touchcontinues = false;
 
-                Ray ray = Camera.main.ScreenPointToRay(touchPosWorld);
-                RaycastHit hit;
-                if (Physics.Raycast(ray, out hit) && hit.collider.gameObject.tag == "Crab")
-                {
-                    Debug.Log("Crab Tap");
-                    blocked = true;
-                }
-                else
-                {
+                //Ray ray = Camera.main.ScreenPointToRay(touchPosWorld);
+                //RaycastHit hit;
+                //if (Physics.Raycast(ray, out hit) && hit.collider.gameObject.tag == "Crab")
+                //{
+                //    Debug.Log("Crab Tap");
+                //    blocked = true;
+                //}
+                //else
+                //{
 
                     // crabs
                     if (general.crabstodelete.Count > 0)
@@ -110,7 +110,7 @@ public class TouchController : MonoBehaviour
 
                         general.crabstodelete.Clear();
                     }
-                }
+               //}
             }
         }
     }
