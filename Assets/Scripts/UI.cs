@@ -79,7 +79,7 @@ public class UI : MonoBehaviour
     public void Start()
     {
         Time.timeScale = 1;
-        asyncOperation = SceneManager.LoadSceneAsync("Preloader");
+            asyncOperation = SceneManager.LoadSceneAsync("MainMenu");
         asyncOperation.allowSceneActivation = false;
 
         coins = PlayerPrefs.GetInt("coins");
