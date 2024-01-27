@@ -104,7 +104,7 @@ public class TouchController : MonoBehaviour
                         foreach (Rigidbody crab in general.crabstodelete)
                         {
                             crab.isKinematic = false;
-                            crab.AddForce(transform.forward * 2 + transform.up, ForceMode.Impulse);
+                            crab.AddForce(transform.forward * 4 + transform.up * 2, ForceMode.Impulse);
                         }
                         general.ui.currentScore += general.crabstodelete.Count * general.ui.scoreIndex2;
 
@@ -141,7 +141,7 @@ public class TouchController : MonoBehaviour
                 {
                     if (touchPos.x > swipeStartPos.x)
                     {
-                        player.animator.Play("Right");
+                       // player.animator.Play("Right");
                         //player.rb.AddForce(transform.up * 0.3f, ForceMode.Impulse);
                         Debug.Log("move right");
                         player.targetPosition = new Vector3(player.targetPosition.x + 0.25f, player.transform.position.y, player.transform.position.z);
@@ -152,7 +152,7 @@ public class TouchController : MonoBehaviour
                     }
                     else if (touchPos.x < swipeStartPos.x)
                     {
-                        player.animator.Play("Left");
+                        //player.animator.Play("Left");
                         //player.rb.AddForce(transform.up * 0.3f, ForceMode.Impulse);
                         // player.rb.AddForce((transform.right * -1 * player.moveSpeed) + transform.up * 0.3f, ForceMode.Impulse);
                         Debug.Log("move left");

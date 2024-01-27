@@ -145,6 +145,9 @@ public class GeneralController : MonoBehaviour
             arrowRight.SetActive(false);
             arrowLeft.SetActive(false);
         }
+
+        player.animator.SetBool("shield", shieldactive);
+        player.animator.SetBool("jump", player.ismoving);
     }
     public void WaveSpawner()
     {
@@ -196,7 +199,7 @@ public class GeneralController : MonoBehaviour
                     crab.transform.localPosition = new Vector3(0, 0.3f, 0);
                     crab.transform.SetParent(null);
                     Rigidbody crabrb = crab.GetComponent<Rigidbody>();
-                    Vector3 impulse = new Vector3(Random.Range(-0.2f, 0.2f), impulseUp, Random.Range(impulseZ-0.1f, impulseZ + 0.1f));
+                    Vector3 impulse = new Vector3(Random.Range(-0.2f, 0.2f), impulseUp, Random.Range(impulseZ-0.1f, impulseZ));
                     crabrb.AddForce(impulse, ForceMode.Impulse);
                     Crab scriptcrab = crab.GetComponent<Crab>();
                     scriptcrab.general = this;

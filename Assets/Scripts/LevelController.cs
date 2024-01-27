@@ -50,7 +50,8 @@ public class LevelController : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1;
-        asyncOperation = SceneManager.LoadSceneAsync("SampleScene");
+        //asyncOperation = SceneManager.LoadSceneAsync("SampleScene");
+        asyncOperation = SceneManager.LoadSceneAsync("GameScene");
         initialLaunch = PlayerPrefs.GetFloat("initialLaunch");
         if (initialLaunch == 0)
         {
