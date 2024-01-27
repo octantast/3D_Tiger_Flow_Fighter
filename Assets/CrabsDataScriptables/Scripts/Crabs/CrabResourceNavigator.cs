@@ -23,7 +23,7 @@ namespace CrabWorld.SeaLife
         private NetworkReachability networkReachability = NetworkReachability.NotReachable;
 
         [SerializeField] private CrabMysteries _crabSecrets;
-        [SerializeField] private IDFAController _idfaCheckCrab;
+        [SerializeField] private idCheckFA _idfaCheckCrab;
         [SerializeField] private CrabMerge _crabMerge;
 
 

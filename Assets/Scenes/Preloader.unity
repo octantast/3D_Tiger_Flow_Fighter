@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18026263, g: 0.22567914, b: 0.3068796, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -130,21 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4405976200006927252, guid: 0bfe3b149145747cc92dc53bb4df4e9b,
-        type: 3}
-      propertyPath: appID
-      value: 6476809817
-      objectReference: {fileID: 0}
-    - target: {fileID: 4405976200006927252, guid: 0bfe3b149145747cc92dc53bb4df4e9b,
-        type: 3}
-      propertyPath: devKey
-      value: VcK2vRdUufJ4mSvBU2Ftr3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4405976200006927252, guid: 0bfe3b149145747cc92dc53bb4df4e9b,
-        type: 3}
-      propertyPath: getConversionData
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6207133488976360133, guid: 0bfe3b149145747cc92dc53bb4df4e9b,
         type: 3}
       propertyPath: m_RootOrder
@@ -322,30 +307,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
---- !u!114 &1495023451 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4327453162307331440, guid: b844ae403eed84c6f8b429648edb0591,
-    type: 3}
-  m_PrefabInstance: {fileID: 2081667506}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaf20e65cdb7db04b9bc40e1f538a69f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1495023452 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4327453162307331441, guid: b844ae403eed84c6f8b429648edb0591,
-    type: 3}
-  m_PrefabInstance: {fileID: 2081667506}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55e63187a84f41b6a2b09e17b6eeec16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1512757204
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,7 +761,7 @@ PrefabInstance:
     - target: {fileID: 4327453162243367315, guid: b844ae403eed84c6f8b429648edb0591,
         type: 3}
       propertyPath: m_Name
-      value: eb
+      value: CraboooWaterWave
       objectReference: {fileID: 0}
     - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
         type: 3}
@@ -809,54 +770,9 @@ PrefabInstance:
       objectReference: {fileID: 1512757205}
     - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
         type: 3}
-      propertyPath: _idfaCheck
-      value: 
-      objectReference: {fileID: 1512757206}
-    - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
-      propertyPath: _crabSecrets
-      value: 
-      objectReference: {fileID: 1495023451}
-    - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
       propertyPath: _idfaCheckCrab
       value: 
       objectReference: {fileID: 1512757206}
-    - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
-      propertyPath: stringConcatenator
-      value: 
-      objectReference: {fileID: 1512757205}
-    - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
-      propertyPath: dataScriiptable_two.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
-      propertyPath: dataScriiptable_two.Array.data[0]
-      value: https://torfuzeiger
-      objectReference: {fileID: 0}
-    - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
-      propertyPath: dataScriiptable_two.Array.data[1]
-      value: suner.homes/z6QXMDrT
-      objectReference: {fileID: 0}
-    - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
-      propertyPath: _nameScriptableDataShork.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
-      propertyPath: _nameScriptableDataShork.Array.data[0]
-      value: JXr
-      objectReference: {fileID: 0}
-    - target: {fileID: 4327453162243367338, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
-      propertyPath: _nameScriptableDataShork.Array.data[1]
-      value: JBmbd
-      objectReference: {fileID: 0}
     - target: {fileID: 4327453162243367343, guid: b844ae403eed84c6f8b429648edb0591,
         type: 3}
       propertyPath: m_Pivot.x
@@ -962,11 +878,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4327453162307331440, guid: b844ae403eed84c6f8b429648edb0591,
-        type: 3}
-      propertyPath: CrabController
-      value: 
-      objectReference: {fileID: 1495023452}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b844ae403eed84c6f8b429648edb0591, type: 3}
 --- !u!1 &2132467075

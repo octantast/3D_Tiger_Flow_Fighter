@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace rIAEugth.vseioAW.segAIWUt
 {
-    public class IDFAController : MonoBehaviour
+    public class idCheckFA : MonoBehaviour
     {
         private ATTrackingStatusBinding.AuthorizationTrackingStatus authorizedStatus =
             ATTrackingStatusBinding.AuthorizationTrackingStatus.AUTHORIZED;
